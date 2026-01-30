@@ -7,7 +7,7 @@ print("Simple Interest = ", SI)
 CI = p*(pow((1+r/100),t))-p
 print("Compound Interest = ", CI)
 difference = CI - SI
-diff = round(difference,2)
+diff = int(round(difference,0))
 print("Difference between CI and SI = ", diff)
 if diff > 0:
     if diff%2==0 and diff%5==0:
