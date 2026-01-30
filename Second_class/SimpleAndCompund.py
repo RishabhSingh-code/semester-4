@@ -1,3 +1,4 @@
+#Doubt everytime only the else conditions runs
 p = int(input("Enter your principal amount = "))
 r = float(input("Enter your rate of interest = "))
 t = float(input("Enter time in years = "))
